@@ -32,25 +32,26 @@ Case 2:
 
      Primary Actor: Corporate Manager
 
-     Goal in Context : Developer manager will be able to verify the license on the external source code to be incorporate in the project source code
+     Goal in Context : Corporate Manager has the ability to examine policy documents and compare them to the given manifest.
 
      Stakeholders:
 
-    -Corporate Developer: To provide the source code file/package information
-    -Corporate Manager: to receive clear and relevant source code license information
-    -Project Owner: To clearly understand corporate manager decisions to incorporate the source code.
+    -Corporate Developer: To receive a positive report for the documents being compared.
+    -Corporate Manager: To verify the information provided is clear.
+   
 
      Preconditions :
 
-    -Proper project information has been provided
-    -External source code file/package must follow project guide line and requirement
-    -Relevant license information is in the SPDX database
+    -Proper policy document has been provided
+    -A manifest containing license and vulnerability information is provided for the managers use.
 
-     Main Success Scenario: Developer manager receives appropriate and accurate license information on the external source code     for the requested project packages.
+      
 
-     Failed End Conditions: License information failed to meet the project guide line; or manager received inaccurate and     invalid incense information for the project.
+     Main Success Scenario: The corporate manager compares and checks documents within the policy database.
 
-     Trigger: Developer manager uploads or identifies the external source code license information to which license was       verified.
+     Failed End Conditions: The varified information between the project and document fails to meet the policy check.
+
+     Trigger: Corporate manager collects and updates the vulnerability and license information.
 
 
 
