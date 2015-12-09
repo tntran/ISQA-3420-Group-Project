@@ -28,7 +28,7 @@ Case 1:
 
 Case 2:
 
-     Title: Verify Customer Background
+     Title: Verify External Information
 
      Primary Actor: Corporate Developer
 
