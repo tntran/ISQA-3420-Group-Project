@@ -56,7 +56,7 @@ Case 2:
 
 Case 3:
 
-      Title: Obtain CPE information 
+      Title: Obtain New software system 
 
       Primary Actor: Corporate Developer
 
