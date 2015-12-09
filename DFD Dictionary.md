@@ -1,3 +1,6 @@
+
+![alt tag] (https://cloud.githubusercontent.com/assets/16200170/11699209/d335fa48-9e88-11e5-8389-5ad445a64650.png)
+
 External Entities / Externals
 Label:
 
@@ -56,21 +59,12 @@ Manager Property=
 	Apartment Location+
 	Location Condition+
 	
-
-
-
-
-
-
-
+![alt tag](https://cloud.githubusercontent.com/assets/16200170/11699237/05c919fe-9e89-11e5-88d0-846535d1696f.png)
 
 
 
 Level 0 Diagram
 
-
- 
-	
 
 Process 1.0
 
@@ -98,6 +92,8 @@ SEND Tenant Information to Background Checking
 	WRITE New Tenant Information to Tenant table
 	
 
+
+![alt tag](https://cloud.githubusercontent.com/assets/16200170/11699250/13e5ca82-9e89-11e5-94ee-99f5e919403f.png)
 PRC 2
 
 Label:
