@@ -33,6 +33,10 @@ Version Control - Process which allows the developer to check in and manage code
 
 License Scanner - This process provides scans packages or the files for license information.
 
+Code Approval - Corporate Manager approves code and sends it to the developer.
+
+Upload code to website - Developer takes code and uploads to website.
+
 ----------------------------------------------------
 Data Flows:
 ----------------------------------------------------
