@@ -28,9 +28,9 @@ Case 1:
 
 Case 2:
 
-     Title: Verify External Information
+     Title: Policy Check
 
-     Primary Actor: Corporate Developer
+     Primary Actor: Corporate Manager
 
      Goal in Context : Developer manager will be able to verify the license on the external source code to be incorporate in the project source code
 
