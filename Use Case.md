@@ -38,14 +38,11 @@ Case 2:
 
     -Corporate Developer: To receive a positive report for the documents being compared.
     -Corporate Manager: To verify the information provided is clear.
-   
 
      Preconditions :
 
     -Proper policy document has been provided
     -A manifest containing license and vulnerability information is provided for the managers use.
-
-      
 
      Main Success Scenario: The corporate manager compares and checks documents within the policy database.
 
