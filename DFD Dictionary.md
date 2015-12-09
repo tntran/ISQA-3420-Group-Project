@@ -1,13 +1,17 @@
 ----------------------------------------------------
 DFD Dictionary
 ----------------------------------------------------
+----------------------------------------------------
 Entities:
+----------------------------------------------------
 
 Corporate Developer - Internal employees in charge of developing, maintaining and integrating, internal, proprietary, as well as external, open source code. To be used in any software or project, for internal or external use, by the company.
 
 Project Manager - A manager directly overseeing the related development project, This person is responsible for the project and all its parts including; risk, OS use, funding, etc.
 
+----------------------------------------------------
 Data Stores:
+----------------------------------------------------
 
 SPDX DB - This contains the viability, SPDX manifests, and the approved (or allowed) usage of any piece of open source code a developer wishes to integrate into a project.
 
@@ -15,7 +19,9 @@ Policy DB - This contains all the policy information.
 
 NIST CPE Information - This is a local copy of all the current CPEs from the National Vulnerabilities Database.
 
+----------------------------------------------------
 Processes:
+----------------------------------------------------
 
 Policy Information - Process that checks and verifys policy within the database.
 
@@ -27,7 +33,9 @@ Version Control - Process which allows the developer to check in and manage code
 
 License Scanner - This process provides scans packages or the files for license information.
 
+----------------------------------------------------
 Data Flows:
+----------------------------------------------------
 
 File/Package: A single file or a collection of files in a package.
 
