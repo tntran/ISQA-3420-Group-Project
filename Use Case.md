@@ -28,11 +28,11 @@ Case 1:
 
 Case 2:
 
-     Title: Verify external source code license information
+     Title: Verify Customer Background
 
      Primary Actor: Corporate Developer
 
-     Goal in Context : Developer manager will be able to verify the license on the external source code to be incorporate in     the project source code
+     Goal in Context : Developer manager will be able to verify the license on the external source code to be incorporate in the project source code
 
      Stakeholders:
 
