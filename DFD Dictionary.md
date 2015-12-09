@@ -1,158 +1,64 @@
+----------------------------------------------------
+DFD Dictionary
+----------------------------------------------------
+Entities:
 
-![alt tag] (https://cloud.githubusercontent.com/assets/16200170/11699209/d335fa48-9e88-11e5-8389-5ad445a64650.png)
+Corporate Developer - Internal employees in charge of developing, maintaining and integrating, internal, proprietary, as well as external, open source code. To be used in any software or project, for internal or external use, by the company.
 
-External Entities / Externals
-Label:
+Project Manager - A manager directly overseeing the related development project, This person is responsible for the project and all its parts including; risk, OS use, funding, etc.
 
-	EXT 1 – Tenant
+Data Stores:
 
-Description:
+SPDX DB - This contains the viability, SPDX manifests, and the approved (or allowed) usage of any piece of open source code a developer wishes to integrate into a project.
 
-	Tenant request for apartment leasing from the company.
-________________________________________
-Label:
+Policy DB - This contains all the policy information.
 
-	EXT 2 – Manager
+NIST CPE Information - This is a local copy of all the current CPEs from the National Vulnerabilities Database.
 
-Description:
+Processes:
 
-	The manager process and assign tenant new apartment.
+Policy Information - Process that checks and verifys policy within the database.
 
-Data Flows
-  
-Context Diagram
-Label:
+Manage Project Information - This process provides the Corporate Manager with file/package information about the project.
 
-	DAF 6 – Tenant Request
+Manage CPE Information - A process in chich CPE request is sent to the National Vulnaribility Database and the received information is stored in NIST CPE Database
 
-Description:
+Version Control - Process which allows the developer to check in and manage code.
 
-Tenant Request is used to apply for apartment.
+License Scanner - This process provides scans packages or the files for license information.
 
-Decomposition:
-Tenant Name =
-	First Name +
-	(Middle Initial) +
-	Last Name
-Tenant Address =
-	Street + 
-	(Apartment) +
-	City +
-	State +
-	Zip +
-	Country
+Data Flows:
 
-Apartment Information=
-Category+
-Price
-Apartment Status=
-Newly Fix+
-	Upgrade+
-	Require Update+
-	Require Replacement+
-	Damage+
-Manager Name=
-	First Name +
-	(Middle Initial) +
-	Last Name
-Manager Property=
-	Apartment Location+
-	Location Condition+
-	
-![alt tag](https://cloud.githubusercontent.com/assets/16200170/11699237/05c919fe-9e89-11e5-88d0-846535d1696f.png)
+File/Package: A single file or a collection of files in a package.
 
+Project File: A single file containing code.
 
+License Information: Information returned about the licenses within the file/package.
 
-Level 0 Diagram
+CPE Information: Contains all CPE information from the National Vulnerability Database.
 
+Package Name: The name of the package that is/was submitted by the developer.
 
-Process 1.0
+CVE Information :It is the information used to find vulnerabilities in packages.
 
-Label:
+File SHA1 Request: A request, using a hash to see if a file already exists in the database.
 
-	PRC 1 – Determine Tenant Background
+File SHA1 Response: A "yes" or "no" response from the database to confirm or deny the presence of the file in the database.
 
-Description:
+Project Information Request: Request sent by the corporate manager for project information from the OSS database.
 
-This process describes the specific steps check tenant background.
+Project Information Response: Response sent back to the corporate manager about project information.
 
-Decomposition
+New Policy Information: Submit new policy information by the corporate manager.
 
-	RECEIVE Tenant Request from Tenant
-	CHECK Tenant Information 
-BEGIN IF 
-IF Tenant Information = New
-	THEN 
-SEND Tenant Information to Background Checking
-		ELSE
-			SEND Tenant Information to PRC 2
-		ENDIF
-	ENDIF
-	READ Tenant Information from Tenant table
-	WRITE New Tenant Information to Tenant table
-	
+Policy Respond: Policy information about the project is returned to the manager.
 
+Project Information Request: The policy database is queried for policy information for the project.
 
-![alt tag](https://cloud.githubusercontent.com/assets/16200170/11699250/13e5ca82-9e89-11e5-94ee-99f5e919403f.png)
-PRC 2
+Project Information Response: The policy information for the specific project is returned.
 
-Label:
+CPE Request: A request for updated CPE information from the National Vulnerability Database.
 
-	PRC 2.0 – Approve and Assign Apartment
+CPE Response: Updated CPE information is returned.
 
-Description:
-
-This process determines whether the Tenant get approve and assign a new apartment.
-
-Decomposition:
-
-REVIEW New Tenant Information from PRC 1.0
-READ the Apartment Status from Apartment table
-BEGIN IF
-	IF 
-Apartment = available
-	THEN
-		SEND Assign Apartment to Tenant	
-	ELSE
-		SEND Denied Notification to Tenant
-ENDIF
-WRITE New Apartment Approval to Apartment Table
-	
-
-Label:
-
-	DAF 8 – Apartment Status	
-
-Description:
-
-This process determines whether the apartment are available for lease.
-
-Decomposition:
-
-Apartment Status=
-Newly Fix+
-	Upgrade+
-	Require Update+
-	Require Replacement+
-	Damage+
-	
-
-
-PRC 3.0
-
-Label:
-
-	PRC 3.0 – Review Report Request
-
-Description:
-
-The process generates the Report to Manager.
-
-Decomposition:
-
-REVIEW Tenant Information from PRC 2.0 
-VERIFY Apartment Information from Apartment
-GENERATE Report for Manager
-	SEND Tenant Information and Apartment Information to Managers
-	
-
+CVE Request: Information about the CVE of a file/package is requested from the National Vulnerability Database using CPE information.
