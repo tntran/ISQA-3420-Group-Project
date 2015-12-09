@@ -5,7 +5,7 @@ Github Repository: https://github.com/tntran/ISQA-3420-Group-Project
 Members:
 
 Tien Tran 
-Eschutte 
+Evan Schutte 
  
 Slide 1 (Executive Summary)
 
