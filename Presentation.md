@@ -23,19 +23,60 @@ Text here
 
 ## Slide 4 (ERD)
 
-ERD Image? Text here
+![alt tag](https://cloud.githubusercontent.com/assets/16200170/11702492/b7c82d80-9e9c-11e5-87c4-05bdc1084c2a.png)
 
 ## Slide 5 (Software Manifest)
 
-Text here
+Document:
+      DocumentLicense: CC-BY-SA 4.0
+      Author: 
+      DateCreated: 
+      
+Package: 
+      Name: 
+      SHA1: 
+      CPE: 
+      Licenses: 
+      Vulnerabilities
 
 ## Slide 6 (Policy Document)
 
-Text here
+Licenses:
+      Copyleft 
+	GPLv2 – Red 
+	GPLv3 – Black
+
+      Permissive 
+	Apache – Yellow
+	MIT – Green 
+
+Vulnerabilities: 
+      Scores
+	0<X<6 – Yellow
+	X>6 – Red 
 
 ## Slide 7 (Use Cases)
 
-Text here
+Case 1:
+Title: Determine License and Vulnerability Information 
+
+Primary Actor: Corporate Manager
+
+Goal in Context: The corporate manager is able to determine license and vulnerability information from provided project information
+
+Case 2:
+Title: Policy Check
+
+Primary Actor: Corporate Manager
+
+Goal in Context : Corporate Manager has the ability to examine policy documents and compare them to the given manifest.
+
+Case 3:
+Title: Upload to Online Repository
+
+Primary Actor: Corporate Developer
+
+Goal in Context: The corporate developer is able to obtain CPE information from the National Vulnerability database and store it in NIST CPE data store.
 
 ## Slide 8 (Discuss Experience/Difficulties)
 
