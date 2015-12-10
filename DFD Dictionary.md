@@ -13,7 +13,7 @@ Project Manager - A manager directly overseeing the related development project,
 Data Stores:
 ----------------------------------------------------
 
-SPDX DB - This contains the viability, SPDX manifests, and the approved (or allowed) usage of any piece of open source code a developer wishes to integrate into a project.
+SPDX DB - This contains the viability, SPDX manifests, and the approved or allowed usage of any piece of open source code a developer wishes to integrate into a project.
 
 Policy DB - This contains all the policy information.
 
