@@ -148,7 +148,7 @@ Goal in Context: The corporate developer is able to obtain CPE information from 
 
 ## Slide 8 (Discuss Experience/Difficulties)
 
-
+One difficulty our group had was thinking all semester that we were to create our own system and make a repository for it, after finding out all the information on the system was basically given to us we had a much easier time putting our repository together.  Working with Github wasn't easy at first, but after a couple times we got our information to be accesable and veiwable to the public. I think that in the future any work with Github will be easier to understand.
 
 ## Slide 9 (Biggest Takeaways)
 
