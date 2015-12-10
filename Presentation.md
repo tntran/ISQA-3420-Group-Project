@@ -148,8 +148,8 @@ Goal in Context: The corporate developer is able to obtain CPE information from 
 
 ## Slide 8 (Discuss Experience/Difficulties)
 
-Text here
+
 
 ## Slide 9 (Biggest Takeaways)
 
-Text here
+Some of the takeaways from this group project were working more with the open source world and how managing in a digital world deals with all management principals.  Teamwork was a big part of the project making sure that your partner(s) were doing their part and keeping on the same page as one another.  Although the biggest takeaway for me was digging deeper into the open source community and how a company would impliment a project via open source.
