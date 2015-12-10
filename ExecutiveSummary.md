@@ -10,4 +10,4 @@ Solution
 ----------------------------
 
 To allow the open source software and code to be legal. The solution for that is to design a better handle the licensing and vulnerabilities. However, this should create a big gap between the campany and the open source community. The system itseft need to 
-enable to identify the package information based on the licenses and vulnerabilities. 
+enable to identify the package information based on the licenses and vulnerabilities. This is not just benefit for the developer but also give credential for the open source community.
