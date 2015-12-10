@@ -33,6 +33,7 @@ Document:
       DateCreated: 
       
 Package: 
+
       Name: 
       SHA1: 
       CPE: 
@@ -42,6 +43,7 @@ Package:
 ## Slide 6 (Policy Document)
 
 Licenses:
+
       Copyleft 
 	GPLv2 – Red 
 	GPLv3 – Black
@@ -51,6 +53,7 @@ Licenses:
 	MIT – Green 
 
 Vulnerabilities: 
+
       Scores
 	0<X<6 – Yellow
 	X>6 – Red 
